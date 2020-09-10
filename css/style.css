@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Mulish:wght@300&family=Playfair+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* General Stylings */
+
+section {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.primary-btn {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background: #fb8f1d;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 40px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Navbar */
+
+header {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link {
+  color: #202336;
+}
+.nav-link:hover {
+  color: #fb8f1d;
+}
+
+.login-btn {
+  color: #fb8f1d;
+  padding: 8px 46px;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+
+.register-btn {
+  color: #ffffff;
+  background: #fb8f1d;
+  padding: 8px 46px;
+  border-radius: 8px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Home Section */
+
+.home-title {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  width: 360px;
+  line-height: 80px;
+  color: #202336;
+}
+
+.home-paragraph {
+  color: #202336c4;
+  font-size: 22px;
+  margin-top: 20px;
+  width: 450px;
+}
+
+.home-img,
+.section-2-img,
+.partners-img {
+  width: 30vw;
+  min-width: 300px;
+}
+
+/* Section 2 */
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.section-2-text {
+  width: 450px;
+}
+
+.section-2-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.section-2-paragraph {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-top: 20px;
+}
+
+/* Destinations Section */
+
+#destinations-section {
+  display: block;
+  justify-content: center;
+}
+
+.destinations-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.destinations-gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.destinations-gallery li {
+  width: 15vw;
+  min-width: 200px;
+  margin: 0 20px;
+}
+
+.destinations-gallery img {
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.destination-name {
+  position: relative;
+  bottom: 75px;
+  left: 1px;
+  display: flex;
+  text-align: left;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  color: #042521;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 10px 20px;
+  border-radius: 0 10px 0 10px;
+}
+
+/* Partners Section */
+
+#partners-section {
+  width: 70%;
+}
+
+.partners-text {
+  width: 450px;
+}
+
+.partners-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.partners-paragraph {
+  font-family: "Mulish", serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-top: 20px;
+}
+
+/* Testimonials Section */
+
+#testimonials-section {
+  width: 60%;
+  align-items: flex-start;
+  margin-top: 150px;
+}
+
+.testimonials-text {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonials-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+
+.testimonials-rating {
+  margin-bottom: 20px;
+}
+
+.testimonials-paragraph {
+  font-family: "Mulish", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+#user-name {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 48px;
+}
+
+#user-proffesion {
+  font-family: "Mulish", serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+#testimonials-img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.arrows {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 64px;
+  height: 64px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+  cursor: pointer;
+}
+
+#arrow-left {
+  background: url("../img/arrow-left.png");
+}
+
+#arrow-right {
+  background: url("../img/arrow-right.png");
+}
+
+/* Footer */
+
+footer {
+  background: #e7e7e9;
+  width: 100%;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px 0;
+}
+
+.footer-info {
+  width: 360px;
+  font-family: "Mulish", serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #848484;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+}
+.footer-paragraph {
+  margin-bottom: 60px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0 50px;
+}
+
+.footer-title {
+  font-family: "Inter", serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.footer-container ul li {
+  font-family: "Mulish", serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
+
+@media (max-width: 1400px) {
+  #partners-section {
+    width: 80%;
+  }
+  #testimonials-section {
+    justify-content: center;
+  }
+
+  .testimonials-text {
+    justify-content: center;
+    margin-top: 0;
+    text-align: center;
+    align-self: center;
+  }
+
+  .testimonials-title {
+    display: none;
+  }
+
+  .testimonials-img-container {
+    margin-bottom: 0;
+  }
+
+  .footer-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1050px) {
+  header {
+    margin-bottom: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(218, 218, 218, 0.95);
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+  }
+
+  .nav-link {
+    font-size: 26px;
+  }
+
+  .login-btn,
+  .register-btn {
+    font-size: 26px;
+  }
+
+  .nav-links-active {
+    transform: translateX(0);
+    z-index: 2;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  section {
+    justify-content: center;
+    text-align: center;
+  }
+
+  section h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .home-title {
+    font-size: 48px;
+  }
+
+  .home-paragraph {
+    width: 400px;
+  }
+
+  #section-2 {
+    justify-content: center;
+    margin: 100px auto;
+  }
+
+  .destinations-gallery {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .testimonials-title {
+    position: relative;
+    bottom: 600px;
+  }
+}
